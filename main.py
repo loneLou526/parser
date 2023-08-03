@@ -53,4 +53,4 @@ class Parser():
             weight = soup.find('tr', 'maritim-meta _weight_text').find('td', 'maritim-meta-value').text #есть не у всех товаров, поэтому иногда выдает ошибку
 
             #далее осталось только скомпоновать все в ответ 
-            #  
+  
